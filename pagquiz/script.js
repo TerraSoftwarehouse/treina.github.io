@@ -4,7 +4,7 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
-let pergunta01 = ["Pergunta 1: Qual a cor do cavalo branco de Napoleão?", "Preto", 1.2, 1.3, 1.4, 0];
+let pergunta01 = ["Pergunta 1: Qual a cor do cavalo branco de Napoleão?", "Preto", "Marrom", "Azul", "Branco", 0];
 let pergunta02 = ["Pergunta 2:", 2.1, 2.2, 2.3, 2.4, 1];
 let pergunta03 = ["Pergunta 3:", 3.1, 3.2, 3.3, 3.4, 2];
 let pergunta04 = ["Pergunta 4:", 4.1, 4.2, 4.3, 4.4, 3];
