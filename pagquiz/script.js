@@ -82,7 +82,7 @@ function answerTest() {
   document.getElementsByClassName("diploma")[0].style.display = "block";
   document.getElementsByClassName("diploma2")[0].style.display = "block";
  
-  if (resultado < 6){
+  if (resultado < 10){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação : Vocês acertou ${resultado} de 10 questões`;
   }
 
