@@ -5,7 +5,7 @@
 */
 
 let pergunta01 = ["Pergunta 1: Qual a cor do cavalo branco de Napoleão?", "Preto", "Marrom", "Azul", "Branco", 0];
-let pergunta02 = ["Pergunta 2:", 2.1, 2.2, 2.3, 2.4, 1];
+let pergunta02 = ["Pergunta 2: Quantos meses tem 29 dias?", "6", "8", "todos", "1", 1];
 let pergunta03 = ["Pergunta 3:", 3.1, 3.2, 3.3, 3.4, 2];
 let pergunta04 = ["Pergunta 4:", 4.1, 4.2, 4.3, 4.4, 3];
 let pergunta05 = ["Pergunta 5:", 5.1, 5.2, 5.3, 5.4, 4];
@@ -17,7 +17,7 @@ let pergunta10 = ["Pergunta 10:", 10.1, 10.2, 10.3, 10.4, 9];
 
 var lista;
 var resposta = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0 };
-var gabarito = { 0: 0.4, 1: 1.2, 2: 2.3, 3: 3.4, 4: 4.1, 5: 5.2, 6: 6.3, 7: 7.4, 8: 8.1, 9: 9.2 };
+var gabarito = { 0: 0.4, 1: 1.3, 2: 2.3, 3: 3.4, 4: 4.1, 5: 5.2, 6: 6.3, 7: 7.4, 8: 8.1, 9: 9.2 };
 var resultado = 0;
 
 /* 
