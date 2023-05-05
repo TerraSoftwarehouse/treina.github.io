@@ -113,8 +113,8 @@ function carregaDados() {
 
   // Manipulação documento Diploma
 
-  document.getElementById("diploma_nome").textContent = `Aluno: ${nomeDiploma}`;
-  document.getElementById("diploma_ra").textContent = `RA : ${raDiploma}`;
+  document.getElementById("diploma_nome").textContent = `Nome: ${nomeDiploma}`;
+  document.getElementById("diploma_ra").textContent = `CPF: ${raDiploma}`;
 
 }
 
