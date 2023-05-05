@@ -145,8 +145,8 @@ function animaBotaoResposta(){
         //console.log(n3)
         
         if (n2 == n3){
-            document.getElementsByClassName("lista")[i].style.backgroundColor = "#054166"
-            document.getElementsByClassName("lista")[i].style.color = "#B3B012"
+            document.getElementsByClassName("lista")[i].style.backgroundColor = "#0bb560"
+            document.getElementsByClassName("lista")[i].style.color = "#ffffff"
         }else {
             document.getElementsByClassName("lista")[i].style.backgroundColor = "white" 
             document.getElementsByClassName("lista")[i].style.color = "black"
