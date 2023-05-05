@@ -5,7 +5,7 @@
 */
 
 let pergunta01 = ["Pergunta 1: Qual a cor do cavalo branco de Napoleão?", "Preto", "Marrom", "Azul", "Branco", 0];
-let pergunta02 = ["Pergunta 2: Quantos meses tem 29 dias?", "6", "8", "todos", "1", 1];
+let pergunta02 = ["Pergunta 2: Quantos meses do ano tem 29 dias?", "6", "8", "todos", "1", 1];
 let pergunta03 = ["Pergunta 3:", 3.1, 3.2, 3.3, 3.4, 2];
 let pergunta04 = ["Pergunta 4:", 4.1, 4.2, 4.3, 4.4, 3];
 let pergunta05 = ["Pergunta 5:", 5.1, 5.2, 5.3, 5.4, 4];
