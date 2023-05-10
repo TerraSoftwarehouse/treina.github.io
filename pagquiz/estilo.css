@@ -101,8 +101,11 @@
     font-family: lucida;
     display: none;
     text-align: center;
-
+    width: 800px;
+    height: 600px;
+    background-image: url(./img/moldura.png);
 }
+
 
 .pre_visual{
 
