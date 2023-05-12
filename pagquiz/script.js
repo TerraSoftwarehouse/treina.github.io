@@ -77,6 +77,7 @@ function answerTest() {
     }
   }
   //console.log(resultado);
+  if (resultado >= 6){
   document.getElementsByClassName("quizz")[0].style.display = "none";
   document.getElementsByClassName("quizz")[1].style.display = "none";
   document.getElementsByClassName("diploma")[0].style.display = "block";
@@ -85,10 +86,10 @@ function answerTest() {
   if (resultado >= 6){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
   }
-  else{
-    document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou somente ${resultado} de 10 questões, tente novamente!!!`;
   }
-
+  else{
+    console.log "Infelizmente você não conseguiu a nota mínima 6 para receber seu certificado, estude mais um pouco e tente novamente!!!";
+  }
 }
 
 function teste() {
