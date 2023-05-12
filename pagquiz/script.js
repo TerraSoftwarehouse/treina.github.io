@@ -82,8 +82,11 @@ function answerTest() {
   document.getElementsByClassName("diploma")[0].style.display = "block";
   document.getElementsByClassName("diploma2")[0].style.display = "block";
  
-  if (resultado >= 0){
+  if (resultado >= 6){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
+  }
+  else{
+    document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou somente ${resultado} de 10 questões, tente novamente!!!`;
   }
 
 }
