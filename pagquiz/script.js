@@ -85,9 +85,6 @@ function answerTest() {
   if (resultado >= 0){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
     }
-  else{
-    console.log "Infelizmente você não conseguiu a nota mínima 6 para receber seu certificado, estude mais um pouco e tente novamente!!!";
-  }
 }
 
 function teste() {
