@@ -86,7 +86,7 @@ function answerTest() {
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
     }
   else {
-  document.getElementsByClassName("diploma2")[0].style.disppllay = "block";
+  document.getElementsByClassName("diploma3")[0].style.display = "block";
   }
 }
 
