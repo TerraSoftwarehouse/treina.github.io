@@ -85,9 +85,6 @@ function answerTest() {
   if (resultado >= 0){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
     }
-  else {
-  document.getElementsByClassName("diploma3")[0].style.display = "block";
-  }
 }
 
 function teste() {
