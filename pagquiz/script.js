@@ -77,14 +77,16 @@ function answerTest() {
     }
   }
   //console.log(resultado);
+  if (resultado >= 6){
   document.getElementsByClassName("quizz")[0].style.display = "none";
   document.getElementsByClassName("quizz")[1].style.display = "none";
   document.getElementsByClassName("diploma")[0].style.display = "block";
   document.getElementsByClassName("diploma2")[0].style.display = "block";
- 
-  if (resultado >= 0){
-  document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
-    }
+  document.getElementById("nota_diploma").textContent = `Nota da avaliação: Parabéns, você acertou ${resultado} de 10 questões!!!`;
+  }
+  else {
+    window.alert('Infelizmente você não atingiu a pontuação mínima exigida de 6 pontos,\nestude mais um pouco e tente novamente mais tarde. \n \n \nPara abrir o site novamente digite o endereço: \nwww.treinamento.terrasofthouse.com.br \n \n \nBoa sorte!!!');
+  }
 }
 
 function teste() {
@@ -123,8 +125,8 @@ function imprimir() {
   document.getElementById("imagem_diploma").style.display = "block";
  
   window.print();
-}
 
+}
 /* 
 ::::::::::::::::::::::::::::::::::::::
 Função dedicada a animação dos botoes.

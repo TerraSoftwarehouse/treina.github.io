@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teste de conhecimentos - Quiz</title>
+    <title>Teste seu conhecimento</title>
     <link href="estilo.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="../imagens/favicon/favicon.ico" type="image/x-icon">
   </head>
@@ -13,7 +13,7 @@
   <!-- HTML dedicado seleção de questões. -->
 
   <div class="quizz">
-      <legend style="border: 3px;"> Selecione uma Pergunta!</legend>
+      <legend style="border: 3px;"> Selecione as perguntas sequencialmente!</legend>
       
       <button class="botao_1" onclick="carregar(pergunta01)">1</button>
       <button class="botao_1" onclick="carregar(pergunta02)">2</button>
@@ -32,7 +32,7 @@
 
     <div class="quizz">
       <fieldset>
-      <legend>Perguntas e Respostas</legend>
+      <legend>Perguntas e alternativas</legend>
       <h1 id="pergunta_"></h1>
       <ul style="list-style-type: none; padding:0px">
         <li><button class="lista" onclick="answer(1)" value=""></button></li>
@@ -41,13 +41,13 @@
         <li><button class="lista" onclick="answer(4)" value=""></button></li>
       </ul>
 
-      <button id="botao_2" onclick="answerTest()">Envia Respostas:</button>
+      <button id="botao_2" onclick="answerTest()">Finaliza:</button>
     </fieldset>
     </div>
 
     <br />
 
-    <!-- Trecho formatação do documento diploma. -->
+    <!-- Trecho formatação do ducumento diploma. -->
 
     <div class="diploma">
       <h2>
@@ -70,7 +70,7 @@
 
     <div class="diploma2" >
     <fieldset style="border: 10px green ridge; ">
-      <fieldset style="border: 10px black ridge;">
+      <fieldset style="border: 10px rgb(66, 66, 66) ridge;">
         <br>
         <img src="./img/scrum1.png" alt="Imagem para Diploma" id="imagem_diploma" />
         <h1> "Certificado de conclusão de curso" </h1>
@@ -78,25 +78,11 @@
         <h2 id="diploma_nome">Nome:</h2>
         <h2 id="diploma_ra">CPF:</h2>
         <h3 id="nota_diploma"></h3>
-        <img src="./img/aproved.png" alt="Aprovado" width="100" height="80" />
+        <img src="./img/aproved.png" alt="Aprovado" width="90" height="70" />
         <br>
       </fieldset>
     </fieldset>
     </div>
-   
-    <!-- Trecho de nota nao alcancada. -->
-
-    <div class="diploma3">
-    <fieldset>
-    <h2>
-    Infelizmente você não alcançou a nota mínima necessária! <br>
-    </h2>
-    <h3>
-    Estude mais um pouco e tente refazer a prova mais tarde. Obrigado.
-    </h3>     
-    </div>
-    </fieldset>
-    <br>
     
   </body>
 

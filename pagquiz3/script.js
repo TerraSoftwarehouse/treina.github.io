@@ -4,20 +4,20 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 */
 
-let pergunta01 = ["Pergunta 1: Qual a cor do cavalo branco de Napoleão?", "Preto", "Marrom", "Azul", "Branco", 0];
-let pergunta02 = ["Pergunta 2: Quantos meses do ano tem 29 dias?", "6", "8", "todos", "1", 1];
-let pergunta03 = ["Pergunta 3:", 3.1, 3.2, 3.3, 3.4, 2];
-let pergunta04 = ["Pergunta 4:", 4.1, 4.2, 4.3, 4.4, 3];
-let pergunta05 = ["Pergunta 5:", 5.1, 5.2, 5.3, 5.4, 4];
-let pergunta06 = ["Pergunta 6:", 6.1, 6.2, 6.3, 6.4, 5];
-let pergunta07 = ["Pergunta 7:", 7.1, 7.2, 7.3, 7.4, 6];
-let pergunta08 = ["Pergunta 8:", 8.1, 8.2, 8.3, 8.4, 7];
-let pergunta09 = ["Pergunta 9:", 9.1, 9.2, 9.3, 9.4, 8];
-let pergunta10 = ["Pergunta 10:", 10.1, 10.2, 10.3, 10.4, 9];
+let pergunta01 = ["Pergunta 1: Qual é o objetivo principal do Scrum?", "Desenvolver software rapidamente, mas sem qualidade", "Desenvolver software com alta qualidade, mas sem velocidade", "Desenvolver software com alta qualidade e alta velocidade", "Desenvolver software sem se preocupar com qualidade ou velocidade", 0];
+let pergunta02 = ["Pergunta 2: O que é um sprint em Scrum?", "Uma reunião diária para discutir o progresso do projeto", "Um período fixo de tempo para o desenvolvimento de um incremento de produto", "Uma técnica para estimar a quantidade de trabalho necessária para uma tarefa", "Um processo para priorizar as funcionalidades do produto", 1];
+let pergunta03 = ["Pergunta 3: Como é chamado o quadro utilizado em Scrum para visualizar o progresso do projeto?", "Quadro de atividades", "Quadro de planejamento", "Quadro de retrospectiva", "Quadro Kanban", 2];
+let pergunta04 = ["Pergunta 4: Qual é o principal evento de planejamento no Scrum?", "Daily Scrum", "Sprint Review", "Sprint restrospective", "Sprint Planning meeting", 3];
+let pergunta05 = ["Pergunta 5: O que é o Product Backlog em Scrum?", "Uma lista ordenada de itens que são considerados completos", "Uma lista de impedimentos que a equipe precisa resolver", "Uma lista ordenada de todas as funcionalidades desejadas para o produto", "Uma lista de coisas que a equipe não deve fazer durante o sprint", 4];
+let pergunta06 = ["Pergunta 6: Qual é o objetivo da reunião diária (daily scrum) em uma equipe Scrum?", "Reportar o status das atividades para o gerente do projeto", "Resolver problemas técnicos que surgiram durante o sprint", "Identificar impedimentos e discutir planos de ação para removê-los", "Criar novas histórias de usuário para o Product Backlog", 5];
+let pergunta07 = ["Pergunta 7: Quais são os papéis essenciais do Scrum?", "Gerente de produto e Cliente", "Scrum Master, Cliente e patrocinador", "Programador e Stakeholder", "Scrum Master, Product Owner e Equipe Scrum", 6];
+let pergunta08 = ["Pergunta 8: Quem é responsável por garantir que o time tenha um product backlog eficaz e claro no Scrum?", "O Product Owner", "O Scrum Master", "O time de desenvolvimento", "Todos os membros do Time", 7];
+let pergunta09 = ["Pergunta 9: Como chama-se o gráfico utilizado para medir o progresso da execução dos trabalhos pelo time?  ", "Gráfico de Gantt ", "Barra Progressiva", "Gráfico Burndown", "Kanban", 8];
+let pergunta10 = ["Pergunta 10: Quando deve ocorrer a primeira revisão formal após o início do projeto scrum?", "Após 3 meses corridos", "Ao concluir o primeiro SPRINT", "Antes mesmo de iniciar qualquer trabalho efetivo", "A critério exclusivo dos gestores", 9];
 
 var lista;
 var resposta = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0 };
-var gabarito = { 0: 0.4, 1: 1.3, 2: 2.3, 3: 3.4, 4: 4.1, 5: 5.2, 6: 6.3, 7: 7.4, 8: 8.1, 9: 9.2 };
+var gabarito = { 0: 0.3, 1: 1.2, 2: 2.4, 3: 3.4, 4: 4.3, 5: 5.3, 6: 6.4, 7: 7.1, 8: 8.3, 9: 9.2 };
 var resultado = 0;
 
 /* 
@@ -77,17 +77,14 @@ function answerTest() {
     }
   }
   //console.log(resultado);
-  if (resultado >= 6){
   document.getElementsByClassName("quizz")[0].style.display = "none";
   document.getElementsByClassName("quizz")[1].style.display = "none";
   document.getElementsByClassName("diploma")[0].style.display = "block";
   document.getElementsByClassName("diploma2")[0].style.display = "block";
  
+  if (resultado >= 0){
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Você acertou ${resultado} de 10 questões!!!`;
-  }
-  else {
-  document.getElementsByClassName("diploma3")[0].style.display = "block";
-  }
+    }
 }
 
 function teste() {
