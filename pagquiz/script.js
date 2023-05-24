@@ -85,7 +85,7 @@ function answerTest() {
   document.getElementById("nota_diploma").textContent = `Nota da avaliação: Parabéns, você acertou ${resultado} de 10 questões!!!`;
   }
   else {
-    window.alert('Infelizmente você não atingiu a pontuação mínima exigida de 6 pontos,\nestude mais um pouco e tente novamente mais tarde. \n \n \nPara abrir o site novamente digite o endereço: \nwww.treinamento.terrasofthouse.com.br \n \n \nBoa sorte!!!');
+    window.alert('Infelizmente você não atingiu a pontuação mínima exigida de 6 pontos,\nestude mais um pouco e tente novamente mais tarde. \n \n \nPara abrir o site digite o endereço: \nwww.treinamento.terrasofthouse.com.br \n \n \nBoa sorte!!!');
   }
 }
 
