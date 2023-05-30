@@ -72,7 +72,7 @@
     width: 100%;
     font-family: verdana;
     font-size: 100%;
-    background-color: green;
+    background-color: blue;
     color:#b20000;
     border: 1px solid black;
     border-radius: 5px;
@@ -102,18 +102,7 @@
     display: none;
     text-align: center;
 
-    
 }
-
-.diploma3{
-
-    font-family: lucida;
-    display: block;
-    text-align: center;
-
-    
-}
-
 
 .pre_visual{
 
