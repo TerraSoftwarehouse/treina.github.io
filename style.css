@@ -155,13 +155,13 @@ h1 {
 }
 
 .card-text {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
 }
 .card-body {
     border: solid 4px #A32015;
     border-radius: 20px;
-    max-height: 300px;
+    
 }
 h4 {
 
