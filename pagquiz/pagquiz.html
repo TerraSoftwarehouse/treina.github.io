@@ -28,7 +28,7 @@
 
     </div>
 
-    <!-- Trecho dedicado a pergunta e respostas. -->
+        <!-- Trecho dedicado a pergunta e respostas. -->
 
     <div class="quizz">
       <fieldset>
@@ -42,6 +42,38 @@
       </ul>
 
       <button id="botao_2" onclick="answerTest()">Finaliza:</button>
+      <hr>
+            <!-- Display the countdown timer in an element -->
+    <div id="countdown2"></div>
+
+    <script>
+    function countdown( elementName, minutes, seconds )
+    {
+        var element, endTime, hours, mins, msLeft, time;
+        function twoDigits( n )
+        {
+            return (n <= 9 ? "0" + n : n);
+        }
+        function updateTimer()
+        {
+            msLeft = endTime - (+new Date);
+            if ( msLeft < 1000 ) {
+                element.innerHTML = "Seu tempo acabou!!! Atualize a página e tente de novo!!!";
+            } else {
+                time = new Date( msLeft );
+                hours = time.getUTCHours();
+                mins = time.getUTCMinutes();
+                element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
+                setTimeout( updateTimer, time.getUTCMilliseconds());
+            }
+        }
+        element = document.getElementById( elementName );
+        endTime = (+new Date) + 1000 * (60*minutes + seconds);
+        updateTimer();
+    }
+    countdown( "countdown2", 30, 0 );
+    </script>
+
     </fieldset>
     </div>
 
