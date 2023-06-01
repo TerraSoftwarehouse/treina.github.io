@@ -78,7 +78,6 @@ body, p {
 }
 .modulos {
     text-align: center;
-    align-items: center;
     font-size: 30px;
     padding: 20px;
     background-image: linear-gradient(45deg, #1C5662, #A32015);
