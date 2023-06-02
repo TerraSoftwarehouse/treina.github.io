@@ -63,7 +63,7 @@
                 time = new Date( msLeft );
                 hours = time.getUTCHours();
                 mins = time.getUTCMinutes();
-                element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
+                element.innerHTML = ('Tempo restante:' hours ? hours + ':' + twoDigits( mins ) : mins) + ' minutos e ' + twoDigits( time.getUTCSeconds() 'segundos');
                 setTimeout( updateTimer, time.getUTCMilliseconds());
             }
         }
