@@ -130,10 +130,23 @@ h1 {
     margin: 50px 50px 50px 50px;
 }
 
-.geometrico{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    text-align: center;
+
+footer {
+    background-color:#2a2a2a ;
+    border-top: solid 25px #3A3A3A;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.logo-fatec {
+    width: 100px;
+    margin: 0px 30px 0px 0px;
+}
+
+.conteudo-footer {
+    display:flex;
+    align-items: center center;
+    justify-content: space-around;
+    margin-top: 30px;
 }
