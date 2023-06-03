@@ -129,3 +129,11 @@ h1 {
     max-width: 90%;
     margin: 50px 50px 50px 50px;
 }
+
+.geometrico{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
